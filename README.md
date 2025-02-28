@@ -60,7 +60,7 @@ plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
 ```
-#measuring the error percentage for the model
+# measuring the error percentage for the model
 ```
 mse=mean_squared_error(y_test,y_pred)
 print("MSE =",mse)
